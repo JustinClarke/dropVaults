@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Drop</title>
+    <title>DropVaults</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
@@ -20,13 +20,11 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="assets/styles.css"/>
-    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
-    <link href="https://kodhus.com/static/css/kodhus.min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body class="bg-black muli">
 
-    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
+    <nav id="navbar" class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
         <div class="flex justify-between">
             <a href="#" class="flex items-center p-2 mr-4 no-underline">
                 <img class="max-h-l2 w-auto" src="assets/images/My Post.png" />
@@ -37,11 +35,12 @@
             </a>
         </div>
         <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
-            <a href="#home" class="fs-s1 mx-3 py-3 no-underline hover-underline">Home</a>
-            <a href="#features" class="fs-s1 mx-3 py-3 no-underline hover-underline">Features</a>
-            <a href="#dropone" class="fs-s1 mx-3 py-3 no-underline hover-underline">Drop.1</a>
-            <a href="#pricing" class="fs-s1 mx-3 py-3 no-underline hover-underline">Pricing</a>
-            <a href="#" class="button bg-white black fw-600 no-underline mx-5">Register</a>
+            <a href="#home" class="fs-s1 mx-3 py-3 no-underline hover-underline white">Home</a>
+            <a href="#features" class="fs-s1 mx-3 py-3 no-underline hover-underline white">Features</a>
+            <a href="#dropone" class="fs-s1 mx-3 py-3 no-underline hover-underline white">Drop.1</a>
+            <a href="#faqs" class="fs-s1 mx-3 py-3 no-underline hover-underline white">FAQs</a>
+            <a href="#pricing" class="fs-s1 mx-3 py-3 no-underline hover-underline white">Pricing</a>
+            <a href="#" class="button bg-white black fw-600 mx-5">Register</a>
         </div>
     </nav>
 
@@ -63,8 +62,8 @@
                         class="button-lg bg-indigo-lightest-20 indigo-lightest focus-white fw-300 fs-s3 mr-0 br-l-0">Get
                         Started</button>
                 </div>
-                <div class="white opacity-20 fs-s3 mt-3">No credit card required</span> -->
-            </div>
+                <div class="white opacity-20 fs-s3 mt-3">No credit card required</span>
+            </div> -->
         </div>
     </section>
 
@@ -596,6 +595,49 @@
         </div>
     </section>
 
+    <!-- faqs -->
+    <section id="faqs" class="p-10 md-p-l5">
+        <div class="br-8 bg-indigo-lightest-10 p-5 md-p-l5 flex flex-wrap md-justify-between md-items-center">
+            <h2 class="white fs-m4 fw-800">Frequently Asked Questions</h2>
+            <a href="" class="collapse-trigger no-underline hover-underline block w-100pc p-5 my-1 br-4 bg-black white after-plus after-right after-scale-up-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed…
+            </a>
+            <div class="collapse-target">
+                <div class="p-5 border br-4 white">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed…
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed…
+                </div>
+            </div>
+
+            <a href="" class="collapse-trigger no-underline hover-underline block w-100pc p-5 my-1 br-4 bg-black white after-plus after-right after-scale-up-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed…
+            </a>
+            <div class="collapse-target">
+                <div class="p-5 border br-4 white">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed…
+                </div>
+            </div>
+            
+            <a href="" class="collapse-trigger no-underline hover-underline block w-100pc p-5 my-1 br-4 bg-black white after-plus after-right after-scale-up-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed…
+            </a>
+            <div class="collapse-target">
+                <div class="p-5 border br-4 white">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed…
+                </div>
+            </div>
+            
+            <a href="" class="collapse-trigger no-underline hover-underline block w-100pc p-5 my-1 br-4 bg-black white after-plus after-right after-scale-up-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed…
+            </a>
+            <div class="collapse-target">
+                <div class="p-5 border br-4 white">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed…
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- subscribe -->
     <section class="p-10 md-p-l5">
         <div class="br-8 bg-indigo-lightest-10 p-5 md-p-l5 flex flex-wrap md-justify-between md-items-center">
@@ -614,39 +656,6 @@
             </div>
         </div>
     </section>
-    
-    <!-- faqs -->
-    <section class="m-10">
-        <a href="" class="collapse-trigger no-underline hover-underline block w-100pc p-5 my-1 br-4 bg-black white after-plus after-right after-scale-up-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed…
-            </a>
-            <div class="collapse-target">
-                <div class="p-5 border br-4 white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed…
-                </div>
-            </div>
-    </section>
-
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-            /* Toggle between adding and removing the "active" class,
-            to highlight the button that controls the panel */
-            this.classList.toggle("active");
-
-            /* Toggle between hiding and showing the active panel */
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-            panel.style.display = "none";
-            } else {
-            panel.style.display = "block";
-            }
-        });
-        }
-    </script>
 
     <!-- footer -->
     <footer class="p-5 md-p-l5 bg-indigo-lightest-10">
@@ -728,7 +737,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="assets/js/script.js"></script>
-    <script src="https://kodhus.com/static/js/kodhus.min.js"></script>
 </body>
 
 </html>
