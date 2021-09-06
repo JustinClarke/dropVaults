@@ -1,6 +1,6 @@
-# Drop Landing Page Theme
+# Drop Landing Page
 
-This landing page theme is built on [shorthand css framework](https://github.com/shorthandcss/shorthand)
+This landing page is built on [shorthand css framework](https://github.com/shorthandcss/shorthand)
 
 ## Credit
 
