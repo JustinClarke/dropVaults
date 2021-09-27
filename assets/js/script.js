@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
     // jquery to open and close modal
     $(document).on('click', '[data-toggle=modal]', function () {
         $($(this).attr('data-target')).toggleClass('hidden');
