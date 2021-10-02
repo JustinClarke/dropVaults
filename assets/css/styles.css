@@ -1,0 +1,85 @@
+    a[data-fancybox] img {
+        cursor: zoom-in;
+    }
+    
+    .fancybox__container {
+        flex-direction: column-reverse;
+        --fancybox-color: #0d0c22;
+        --fancybox-bg: #fff;
+        --fancybox-thumbs-width: 80px;
+        --fancybox-thumbs-ratio: 4 / 3;
+        --carousel-button-bg: #f3f3f4;
+        --carousel-button-border-radius: 8px;
+        --carousel-button-svg-width: 20px;
+        --carousel-button-svg-height: 20px;
+        --carousel-button-svg-stroke-width: 1.5;
+        --carousel-button-svg-filter: none;
+    }
+    
+    .carousel__button.is-close {
+        top: 36px;
+        right: 26px;
+        z-index: 30;
+    }
+    
+    .carousel__button.is-close:hover {
+        background: #e7e7e9;
+    }
+    
+    .fancybox__slide {
+        padding-top: 1.25rem;
+    }
+    /**
+  *  Thumbnails
+  */
+    
+    .fancybox__thumbs {
+        padding: 0 100px 0 26px;
+        border-bottom: 2px solid #f3f3f4;
+    }
+    /* Align thumbnails on right side if not draggable */
+    
+    .fancybox__thumbs:not(.is-draggable) .carousel__track {
+        justify-content: flex-end;
+    }
+    
+    .carousel__slide.has-thumb {
+        padding: 30px 7px;
+    }
+    
+    .fancybox__thumb {
+        border-radius: 4px;
+        background-color: #e7e7e9;
+    }
+    
+    .is-nav-selected .fancybox__thumb {
+        box-shadow: 0 0 0 2px #fff, 0 0 0 4px #ea4c89;
+    }
+    
+    .is-nav-selected .fancybox__thumb::after {
+        display: none;
+    }
+    
+    video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    .container {
+        position: relative;
+    }
+    
+    .container video {
+        position: relative;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
