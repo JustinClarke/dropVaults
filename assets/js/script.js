@@ -60,7 +60,7 @@ $(document).ready(function() {
     // faq section
     $('.collapse-target').hide();
     $(document).on('click', '.collapse-trigger', function() {
-        $(this).toggleClass('after-plus after-minus');
+        // $(this).toggleClass('after-plus after-minus');
         $(this).next().slideToggle();
         return false;
     });
